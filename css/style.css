@@ -23,6 +23,7 @@ body {
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/*logo*/
 .logo {
   color: var(--button-filter);
   text-decoration: none;
@@ -48,9 +49,22 @@ body {
 }
 
 /*site-nav*/
+.site-nav-link {
+  color: var(--title-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--button-filter);
+}
 .footer {
   background-color: var(--second-bg);
 }
+/*auth-nav*/
 .auth-nav-link-adress {
   text-decoration: none;
   font-size: 14px;
@@ -73,19 +87,6 @@ body {
 .auth-nav-link-footer:focus {
   color: var(--button-filter);
 }
-.site-nav-link {
-  color: var(--title-text);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--button-filter);
-}
-/*auth-nav*/
 .auth-nav-link {
   color: var(--text-description);
   font-weight: 500;
@@ -98,6 +99,7 @@ body {
 .auth-nav-link:focus {
   color: var(--button-filter);
 }
+/* hero*/
 .section-hero {
   background-color: var(--second-bg);
 }
@@ -166,6 +168,7 @@ body {
   font-size: 16px;
   line-height: 1.14;
 }
+/*portfolio*/
 .button-portfolio {
   color: var(--title-text);
   background-color: var(--bg-sectiom);
