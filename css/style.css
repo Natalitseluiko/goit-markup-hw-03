@@ -59,6 +59,9 @@ body {
 }
 
 /*site-nav*/
+.site-nav {
+  display: flex;
+}
 .site-nav-link {
   color: var(--title-text);
   font-weight: 500;
@@ -77,6 +80,10 @@ body {
 /*auth-nav*/
 .page-header {
 }
+.auth-nav {
+  display: flex;
+}
+
 .auth-nav-link-adress {
   text-decoration: none;
   font-size: 14px;
@@ -115,10 +122,12 @@ body {
 .section-hero {
   text-align: center;
   background-color: var(--second-bg);
+  margin-top: auto;
 }
 .title-hero {
   margin-top: 0px;
   margin-bottom: 40;
+  padding-top: 200px;
   background-color: var(--second-bg);
   text-align: center;
   letter-spacing: 0.06em;
@@ -157,8 +166,16 @@ body {
   color: var(--text-description);
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 0;
+}
+.work {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 .title-section-2 {
+  margin-top: 0;
   color: var(--title-text);
   font-size: 36px;
   line-height: 1.14;
@@ -169,6 +186,7 @@ body {
   background-color: var(--bg-sectiom);
 }
 .title-section-3 {
+  margin-top: 0;
   color: var(--title-text);
   font-size: 36px;
   line-height: 1.14;
@@ -186,6 +204,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.14;
+  margin-bottom: 0;
 }
 /*portfolio*/
 .button-portfolio {
