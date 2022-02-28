@@ -59,16 +59,26 @@ body {
 }
 
 /*site-nav*/
+
 .site-nav {
   display: flex;
 }
 .site-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.site-nav .item {
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -82,6 +92,9 @@ body {
 }
 .auth-nav {
   display: flex;
+}
+.item-auth + .item-auth {
+  margin-left: 50px;
 }
 
 .auth-nav-link-adress {
@@ -107,6 +120,9 @@ body {
   color: var(--button-filter);
 }
 .auth-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--text-description);
   font-weight: 500;
   font-size: 14px;
