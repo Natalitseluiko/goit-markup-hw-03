@@ -249,3 +249,30 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
+.test-conteiner{
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-set{
+outline: 1px solid tomato;
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+margin-top: -20px;
+margin-left: -20px;
+}
+.card-set > .item{
+  outline: 1px solid teal;
+  flex-basis: calc(100% / 3 -20px);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.item{
+
+}
